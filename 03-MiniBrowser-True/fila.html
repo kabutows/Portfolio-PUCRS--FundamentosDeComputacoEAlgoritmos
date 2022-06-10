@@ -1,0 +1,47 @@
+<script>
+    console.log("Fila/Queue");
+
+    var fila = [
+        'script.js',
+        'style.css',
+        'image.png'
+    ]
+
+    fila.push('doguinho.jpg');
+
+    fila.shift();
+
+
+    class Queue{
+
+        constructor(){
+            this.data = []
+        }
+
+        enqueue(item){
+            this.data.push(item)
+        }
+
+        dequeue(){
+            this.data.shift()
+        }
+
+        print(){
+            console.log(this.data)
+        }
+
+
+    }
+
+
+    //=======Receita de criação de fila========
+    var requests = new Queue();
+    requests.enqueue('script.js');
+    requests.print();
+    requests.dequeue();
+    requests.enqueue('style.css');
+    requests.enqueue('image.png');
+    requests.enqueue('doguiho.jpg');
+    requests.print();
+
+</script>

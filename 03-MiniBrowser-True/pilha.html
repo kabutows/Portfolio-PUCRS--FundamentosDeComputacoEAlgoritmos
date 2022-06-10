@@ -1,0 +1,31 @@
+<script>
+    console.log('Pilha/Stack');
+
+    class BrowserHistoryStack{
+        constructor(){
+            this.data = []
+        }
+
+        push(item){
+            this.data.push(item)
+        }
+
+        back(){
+            this.data.pop()
+        }
+
+        print(){
+            console.log(this.data)
+        }
+
+    }
+
+
+    var histore = new BrowserHistoryStack();
+    histore.push('https://google.com');
+    histore.push('https://youtube.com');
+    histore.push('https://facebook.com');
+    histore.print();
+    histore.back();
+    histore.print();
+</script>
