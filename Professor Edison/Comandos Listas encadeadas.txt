@@ -1,0 +1,11 @@
+Os metodos são desejaveis e precisam ser implementados.
+NÃO EXISTE ESTRUTURA PRIMITIVA DE LISTA ENCADEDADA NO JS
+add(e) - insere um elemento(nodo) na lista
+add(index,e) - insere um elemento novo numa posição desejada
+get(index)/set(index,e) - obtem/insere um elemento na posicao passada no index
+remove(e) - remove o elemento passado por parametro
+isEmpty() - verifica se a lista etá vazia
+size() - retorna o tamanho da lista
+contains(e) - verifica se o elemento passado faz parte da lista
+indexOf(e) - retorna a posição do elemento passado por parametro
+clear() - remove todos os elementos da lista

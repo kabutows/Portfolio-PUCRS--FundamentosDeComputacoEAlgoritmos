@@ -1,0 +1,8 @@
+set() - cria uma tupla (chave/valor)
+has() - verifica se a chave passada como parametro existe no conjunto (true/false)
+get() - retorna o valor referente a chave passada como parametro, caso não exista valor retorna undefined
+delete() - deleta o valor referente chave passada como parametro, caso não exista valor retorna false
+size - retorna o tamanho do conjunto de dados (cada tupla equivale a um)
+keys() - retorna todas as chaves do conjunto de forma iteravel
+values() - retorna todos os valores do conjunto de forma iteravel
+entries() - retorna todos os conjuntos chave/valor de forma iteravel

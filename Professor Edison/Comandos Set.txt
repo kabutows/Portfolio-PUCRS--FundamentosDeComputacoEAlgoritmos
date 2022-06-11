@@ -1,0 +1,4 @@
+add() - adiciona no final do conjunto
+has() - verifica se o valor passado como parametro existe no conjunto (true/false)
+size() - retorna o tamanho do conjunto
+remove() - remove o valor passado como parametro caso o mesmo exista no conjunto

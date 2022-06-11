@@ -1,0 +1,8 @@
+length() - retorna o número de elementos de uma lista/array
+push() - adiciona um elemento na posição final da lista
+pop() - remove o ultimo elemento da lista*
+shift() - remove o primeiro elemento da lista*
+unshift() - adiciona um número na posição inicial da lista
+splice() - adiciona um valor numa posição especifica, podendo remover elementos
+slice() - retorna uma copia do array
+at(pos) ou [pos] - retorna o elemento na posição(pos)
