@@ -1,0 +1,14 @@
+Arvore binaria:
+    - todo nodo tem no maximo dois filhos
+    - cada filho é rotulado como filho da esquerda ou da direita
+    - o filho da esquerda precede o filho da direita na ordenação
+    - subarvore:
+        - o filho da esquerda de um nodo v é chamado de subarvore da esquerda
+        - o filho da direita de um novo v é chamado de subarvore da direita
+    
+    - Percorrimento/caminhamento da arvore:
+        - Percurso em profundidade:
+            - Percurso pré-fixado ou pré-ordem
+            - Percurso pós-fixado ou pós-ordem
+            - Percurso central ou em ordem central
+        - Percurso em largura
